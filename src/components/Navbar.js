@@ -16,7 +16,7 @@ const Nav = () => {
   return <NavContainer>
     <div className='nav-center'>
       <div className="nav-header">
-        <Link to="/">
+        <Link to="/comfy-react-site">
           <img src={logo}></img>
         </Link>
         <button className='nav-toggle' onClick = {openSidebar}>
