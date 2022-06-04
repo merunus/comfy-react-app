@@ -33,7 +33,7 @@ const SingleProductPage = () => {
   useEffect(() => {
     if (error) {
       setTimeout(() => {
-        navigate("/")
+        navigate("/comfy-react-site")
       }, 3000)
     }
   }, [error])
