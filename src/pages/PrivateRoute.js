@@ -8,7 +8,7 @@ const PrivateRoute = ({ children }) => {
   const { myUser } = useUserContext()
 
   if(!myUser) {
-    return <Navigate to = "/"></Navigate>
+    return <Navigate to = "/comfy-react-site"></Navigate>
   }
   return children
 };
