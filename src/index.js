@@ -25,7 +25,7 @@ ReactDOM.render(
                         <App />
                     </CartProvider>
                 </FilterProvider>
-            </ProductsProvider>
+            </ProductsProvider> 
         </UserProvider>
     </Auth0Provider>,
     document.getElementById('root'))
