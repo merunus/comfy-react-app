@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
-          <Route path="/comfy-react-site" element={<Home />} />
+          <Route path="/comfy-react-app" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/products" element={<ProductsPage />} />

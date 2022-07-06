@@ -16,7 +16,7 @@ ReactDOM.render(
     <Auth0Provider
         domain="dev-os77ropz.us.auth0.com"
         clientId='7WPnLvRh4u49YBcM119449TteF843zsx'
-        redirectUri={"https://merunus.github.io/comfy-react-site"}
+        redirectUri={"https://merunus.github.io/comfy-react-app"}
         cacheLocation="localstorage" >
         <UserProvider>
             <ProductsProvider>

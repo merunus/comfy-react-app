@@ -4,7 +4,7 @@ export const links = [
   {
     id: 1,
     text: 'home',
-    url: '/comfy-react-site',
+    url: '/comfy-react-app',
   },
   {
     id: 2,
